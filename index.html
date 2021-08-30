@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrolo Web</title>
+    <meta name="description" content="Soluciones digitales para tu empresa, emprendimiento o negocio. Desarrollo de paginas web, e-commerce, landing page's y mucho mas!">
+    <meta name="keywords" content="desarrollo web, aplicaciones, e-commerce, mobile, html, css, javascript, react">
+    <link rel="stylesheet" href="css/destino.css">
+    <script src="https://kit.fontawesome.com/c04192e314.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header class="encabezado">
+            <nav class="navegacion">
+                <h1>
+                    <a href="#" class="logo"><i class="fab fa-battle-net"></i>Soluciones digitales</a>
+                </h1>
+                <ul class="lista__navegacion">
+                    <li><a href="#Tarjetas">Proyectos</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
+                    <li><a href="#Skill">Skills</a></li>
+                    <li><a href="#Acerca">Acerca</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="tarjetas" id="Tarjetas">
+            <div>
+                <h2 class="tarjetas__titulo">Desarrollo web multiplataforma</h2>
+                <img class="tarjetas__imagen" src="asset/desarrollo.jpg">
+            </div>
+            <div>
+                <h2 class="tarjetas__titulo">Tecnologías que se adaptan a tus necesidades</h2>
+                <img class="tarjetas__imagen" src="asset/desarrollo2.jpg">
+            </div>
+            <div>
+                <h2 class="tarjetas__titulo">Aplicaciones móviles</h2>
+                <img class="tarjetas__imagen" src="asset/desarrollo3.jpg">
+            </div>
+        </section>
+        <section>
+            <form class="contacto" action="#" id="Contacto">
+                Nombre: <input class="contacto__input" type="text">
+                Apellido:<input class="contacto__input" type="text">
+                E-mail:<input class="contacto__input" type="email">
+                Deja tu comentario aquí<textarea class="contacto__input" name="mensaje" id="" cols="50" rows="5"></textarea>
+                <input class="contacto__btn--submit" type="submit" value="Enviar" onclick="enviar()">
+                <input class="contacto__btn" type="reset" value="Limpiar">
+            </form>
+        </section>
+        <section class="skill" id="Skill">
+        <div class="skill__titulo"><h2>Tecnologías para el desarrollo</h2>
+        </div>
+        <img src="asset/html.png" alt="">
+        <img src="asset/css.png" alt="">
+        <img src="asset/javascript.png" alt="">
+        <img src="asset/github.png" alt="">
+        <img src="asset/nodejs.png" alt="">
+        <img src="asset/reaccionar.png" alt="">
+        </section>
+        <section class="acercaPerfil" id="Acerca">
+            <h2>Acerca de mí</h2>
+            <img src="asset/contacto.jpg" alt="">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Commodi at sequi dicta temporibus necessitatibus labore blanditiis obcaecati, 
+                    aut facilis nostrum quaerat culpa, tempora ducimus dolorem delectus dolor 
+                    corporis in laudantium
+                </p>
+        </section>
+        <footer class="footer">
+            <h3>
+                Todos los derechos reservados
+                <ul class="footer__navegacion">
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-discord"></i></a></li>
+                    <li><a href="#"><i class="fab fa-git-alt"></i></a></li>
+                </ul>
+            </h3>
+        </footer>
+    </div>
+    <script>
+        function enviar(){
+        alert('Envio exitoso!')
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #dbd9df; }
+
+* {
+  font-family: 'Roboto', sans-serif; }
+
+/* Font size*/
+.container {
+  background-color: white;
+  margin: 2px auto;
+  width: 1280px;
+  height: auto;
+  padding: 10px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+  background-image: url(../asset/fondoAcerca.jpg);
+  background-size: 100% 100%; }
+
+h1 {
+  font-weight: bolder;
+  font-size: 40px; }
+  h1 .fab {
+    margin: 10px; }
+
+.navegacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.lista__navegacion {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0; }
+  .lista__navegacion li a {
+    background-color: #6edae2;
+    color: black;
+    border-radius: 50px;
+    padding: 10px 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bolder;
+    transition: 0.5s; }
+    .lista__navegacion li a:hover {
+      letter-spacing: 2px;
+      background-color: black;
+      color: #6edae2;
+      border-radius: 50px;
+      padding: 10px 30px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: space-around; }
+
+.tarjetas {
+  color: black;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  align-items: center; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+.tarjetas__titulo {
+  font-weight: lighter;
+  font-size: 24px; }
+
+.tarjetas__imagen {
+  width: 600px;
+  height: 300px; }
+
+.contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px;
+  border-color: black;
+  text-decoration-color: black;
+  padding: 10px; }
+  .contacto .contacto__input {
+    width: 400px; }
+
+.contacto__btn {
+  width: 100px;
+  background-color: #6edae2; }
+
+.contacto__btn--submit {
+  width: 100px;
+  background-color: #6edae2;
+  transition: 1s; }
+  .contacto__btn--submit:hover {
+    letter-spacing: 1px;
+    font-size: 16px; }
+
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 0; }
+  .skill img {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px; }
+
+.acercaPerfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .acercaPerfil img {
+    width: 300px;
+    height: 300px; }
+  .acercaPerfil p {
+    width: 500px; }
+
+.footer {
+  display: flex;
+  text-align: center;
+  justify-content: center; }
+
+.footer__navegacion {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0; }
+  .footer__navegacion li a {
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .footer__navegacion li a:hover {
+      color: #cc0d3d; }
